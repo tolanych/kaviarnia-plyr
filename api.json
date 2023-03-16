@@ -1,0 +1,132 @@
+[
+    {
+        "seasonNum": "1",
+        "episodes": [
+            {
+                "MIGX_id": "1",
+                "episode": "1",
+                "name": "Касьмічны пілёт 3000",
+                "description": "Пасьля выпадковай крыягеннай замарозкі дастаўшчык піцы Фрай з 1999 году трапляе ў 2999 год.",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/8/futurama-1.jpg",
+                "link": "https://www.dropbox.com/s/0jikx02i5k06k08/Futurama-01-Kasmicny-pilot-3000.mp4?raw=1",
+                "googleID": "1UPkFItSqpT8MWe9B3F2nKTmhObitFrH3",
+                "telegram": "https://t.me/kaviarnia/44"
+            },
+            {
+                "MIGX_id": "2",
+                "episode": "2",
+                "name": "Сэрыял прызямліўся",
+                "description": "Новай камандзе дастаўкі даручаюць першую місыю, адвезьці скрынку на месяц",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/8/futurama-2.jpg",
+                "link": "https://www.dropbox.com/s/5j9aeesh1a4y99e/Futurama-02-Seryjal-pryziamliusia.mp4?raw=1",
+                "googleID": "1EBUvz35N4QyjABAQJyb_CyoCZtj_wvEI",
+                "telegram": "https://t.me/kaviarnia/52"
+            },
+            {
+                "MIGX_id": "3",
+                "episode": "3",
+                "name": "Я, сусед",
+                "description": "Фрай перашкаджае калегам з Плянэтнага экспрэсу тым, што жыве ў офісе, Бэндэр прапануе пераехаць да яго",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/8/futurama-3.jpg",
+                "link": "https://www.dropbox.com/s/guy9nv1krv80s3q/Futurama-03-Ja-susied.mp4?raw=1",
+                "googleID": "1IpiTeqZBGcnicblTx7e7Q9lw2cmDz_8I",
+                "telegram": "https://t.me/kaviarnia/68"
+            },
+            {
+                "MIGX_id": "4",
+                "episode": "4",
+                "name": "Намаганьні каханьня, згубленыя ў космасе",
+                "description": "Каманда адпраўляецца на місыю па выратаваньні жык2ёлаў з плянэты, якая павінна вось-вось выбухнуць. Падчас яе, каманда сутыкаецца са знакамітым зорным генэралам Зэпам Браніганам.\n",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/8/futurama-4.jpg",
+                "link": "https://www.dropbox.com/s/nw8ceaimha81l67/Futurama-04-Namahanni-kachannia-zhublenyja-u-kosmasie.mp4?raw=1",
+                "googleID": "1vyIy3tzSDhPkQOucl3DdWtTOWxXLDBEj",
+                "telegram": "https://t.me/kaviarnia/77"
+            }
+        ]
+    },
+    {
+        "seasonNum": "2",
+        "episodes": [
+            {
+                "MIGX_id": "1",
+                "episode": "1",
+                "name": "Шчыра запрашаем у Брыклбэры",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-1.jpg",
+                "link": "https://www.dropbox.com/s/otompaygo1b4tm0/Brickleberry-01-Scyra-zaprasajem-u-Bryklbery.mp4?raw=1",
+                "googleID": "15YzatrYYhlTcv8fM4nfNEZVbkG1Db-a0",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "2",
+                "episode": "2",
+                "name": "Двухтыднёвае паведамленьне",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-2.jpg",
+                "link": "https://www.dropbox.com/s/0pdcfhwr1id10sb/Brickleberry-02-Dvuchtydniovaje-paviedamlennie.mp4?raw=1",
+                "googleID": "11tI5UlzD_IzC_tH92eUzaSGZ3sa2-W86",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "3",
+                "episode": "3",
+                "name": "Выратаваныя яйцамі",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-3.jpg",
+                "link": "https://www.dropbox.com/s/cfb5sq6385f652h/Brickleberry-03-Vyratavanyja-jajcami.mp4?raw=1",
+                "googleID": "13j5s-4eXNggtnH8SQsqI6cAEEWTNmT2Q",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "4",
+                "episode": "4",
+                "name": "Ватрус",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-4.jpg",
+                "link": "https://www.dropbox.com/s/nyv5k61i12ns6cb/Brickleberry-04-Vatrus.mp4?raw=1",
+                "googleID": "1xdXDUEufNYQCsylfAsPmDmVHCu46e8lW",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "5",
+                "episode": "5",
+                "name": "Гонка рас",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-5.jpg",
+                "link": "https://www.dropbox.com/s/b751fci5w8u6vob/Brickleberry-05-Honka-ras.mp4?raw=1",
+                "googleID": "1VYeBLpA2WKcuCe33rGEmHJxWpozlXFnV",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "6",
+                "episode": "6",
+                "name": "Гей-бомба",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-6.jpg",
+                "link": "https://www.dropbox.com/s/v1xnyf1usw6ko2o/Brickleberry-06-Hiej-bomba.mp4?raw=1",
+                "googleID": "1A9ul1r42_UDQkSrwLJdPLwkHo6WXmcz8",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "7",
+                "episode": "7",
+                "name": "Прывітаньне, Доці",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-7.jpg",
+                "link": "https://www.dropbox.com/s/h144p465b5wugpf/Brickleberry-07-Pryvitannie-Doci.mp4?raw=1",
+                "googleID": "1b1jbUlc-6haJ7R7GPHd485mGkZxDtpNJ",
+                "telegram": ""
+            },
+            {
+                "MIGX_id": "8",
+                "episode": "8",
+                "name": "Плеш Стыва",
+                "description": "",
+                "img": "https://s3.eu-west-1.amazonaws.com/kaviarnia.site/images/4/bryklbery-8.jpg",
+                "link": "https://www.dropbox.com/s/mz6k58ny7ur3bde/Brickleberry-08-Ples-Styva.mp4?raw=1",
+                "googleID": "1eOHHYXxTNSr04ivzF9npZv6bGaH17JtY",
+                "telegram": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Prototype PlyrJS with Vue</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.css" />
+    </head>
+    <body data-theme="light">
+        <nav>
+            <div :class="theme" id="theme">
+                <span @click="toggleTheme" class="theme-toggle"></span>
+            </div>
+        </nav>
+        <div id="content">
+            <h1>kaviarnia dev</h1>
+            <input type="hidden" id="movieId" value="20">
+            <div id="app" class="episode-frame">
+                <div class="frame clearfix">
+                    <modal :show="showModal" @continue="movieContinue()" @restart="movieRestart()">
+                        <template #body>
+                            <p>Вы глядзелі гэтую серыю на {{formatSeconds(storageTime)}}</p>
+                            
+                        </template>
+                    </modal>
+                    <video ref="vplayer"></video>
+                    <a v-bind:href="'https://drive.google.com/file/d/'+curVideo.googleID+'/preview'" id="alt_link" class="alt-link left" target="_blank">Не працуе відэа?</a>
+                    <a v-if="curVideo.telegram" v-bind:href="''+curVideo.telegram" id="telegram_link" class="alt-link telegram-video right" target="_blank">Глядзець праз Telegram</a>
+                    
+                </div>
+                <div class="episodes-list">
+                    <template v-if="videoData.seasons.length > 1">
+                        <p>Сэзон:</p>
+                        <ul>
+                            <li
+                                v-for="season in videoData.seasons"
+                                :key="season.seasonNum"
+                                :class="{ active: activeSeason == season.seasonNum }"
+                                @click="changeSeason(season)"
+                            >
+                                {{ season.seasonNum }}
+                            </li>
+                        </ul>
+                    </template>
+                </div>
+                <div class="episodes-list">
+                    <template v-if="activeTabSeason.episodes">
+                        <p>Эпізод:</p>
+                        <ul>
+                            <li
+                                v-for="episode in activeTabSeason.episodes"
+                                :class="{ active: activeEpisode == episode.episode }"
+                                @click="changeEpisode(episode)"
+                            >
+                                {{ episode.episode }}
+                            </li>
+                        </ul>
+                    </template>
+                    <template v-else>Нажаль, серый няма</template>
+                </div>
+                
+            </div>
+        </div>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js"></script>
+        <script src="./js/script.js?123"></script>
+    </body>
+</html>
